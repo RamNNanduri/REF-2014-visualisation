@@ -1,0 +1,48 @@
+/*-------------------------------------------------------------------- 
+  
+   Module: Main CSS
+   Author: Ram Nanduri
+  
+   What it does:
+  	CSS for index.html
+  
+  
+---------------------------------------------------------------------- */
+.text{
+	color: #008CBA
+}
+
+.buttons .button{
+	background-color: #008CBA;
+	border: border: 1px solid blue;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+  	font-size: 30px;
+  	cursor: pointer;
+  	float: left;
+}
+
+.buttons .button:hover {
+  	background-color: lightblue;
+}
+
+#layouts {
+	clear: both;
+	padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

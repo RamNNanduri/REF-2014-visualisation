@@ -1,0 +1,39 @@
+/*-------------------------------------------------------------------- 
+  
+   Module: scatterplot CSS
+   Author: Ram Nanduri
+  
+   What it does:
+  	CSS for scatterplot  
+  
+---------------------------------------------------------------------- */
+ 
+.scatterplot .dot.enterSelection  { 
+	fill: #008CBA;
+	stroke: gray;
+	stroke-width: 1;
+	opacity: 0.5;
+}		
+
+.scatterplot .dot.updateSelection {
+	fill: red;
+	stroke: gray;
+	stroke-width: 1;
+	opacity: 0.5;
+}		
+
+.scatterplot .dot.exitSelection {
+	fill: lightgray;
+	stroke: gray;
+	stroke-width: 1;
+	opacity: 0.5;
+}	
+
+.scatterplot .dot.highlight {
+	fill: violet;
+	stroke: black;
+	stroke-width: 2;
+	opacity: 1.0;
+}	
+
+	

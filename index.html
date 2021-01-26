@@ -1,0 +1,79 @@
+<!-- -------------------------------------------------------------------- 
+  
+   Module: Index
+   Author: Ram Nanduri
+  
+   What it does:
+  	index
+  
+   Dependencies
+  	D3.js v4
+  
+----------------------------------------------------------------------  -->
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+
+	<title>REF 2014 Visualisation</title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/pack.css"/>
+	<link rel="stylesheet" type="text/css" href="css/barchart.css"/>	
+	<link rel="stylesheet" type="text/css" href="css/scatterplot.css"/>
+
+	<script src="d3/d3.v4.js"></script>	
+
+    <script src="lib/model/ref14model_v003.js"></script> 
+
+	<script src="lib/controller/controller.js"></script>
+
+	<script src="lib/views/pack.js"></script>
+	<script src="lib/views/scatterplotWithAxes.js"></script>
+	<script src="lib/views/barchartWithAxes.js"></script>
+
+</head>
+	
+<body>
+
+<h1 class = "text">Interactive Internet Application for the Visualisation and Analysis of REF 2014 and associated data</h1>
+<p class = "text"> Please click on a User Profile below to see the relevant visualisation </p>
+
+<div class = "buttons">
+	<div><button type="button" class = "button" onclick="DoR()" >Director of Research</button>
+	</div>
+
+	<div><button type="button" class = "button" onclick="IC()" >Industrial Collaborators</button>
+	</div>
+
+	<div><button type="button" class = "button" onclick="ECR()">Early Career Researcher</button>
+	</div>
+
+</div>
+
+
+<div id="layouts">
+
+	<div id = "packLayout">
+		<div class = "text" id = "descDiv1" ></div>
+	    <div id="packDiv" ></div>
+	</div>
+    
+    <div id = "spLayout">
+		<div class = "text" id = "descDiv3"></div>
+		<div id="spDiv"></div>
+	</div>
+	
+    <div id = "bcLayout">
+		<div class = "text" id = "descDiv2"></div>
+		<div id="bcDiv">	
+	</div>
+	
+	
+
+</div>
+
+</body>
+
+</html>
+
+
